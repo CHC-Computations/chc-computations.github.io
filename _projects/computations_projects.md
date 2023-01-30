@@ -8,6 +8,8 @@ accent_color: '#9bc013'
 gallery_images:
   - dariah_logo_kolor.png
   - libri_logo.png
+  - pbl_logo.jpg
+  - triple_logo.png
   
 ---
 

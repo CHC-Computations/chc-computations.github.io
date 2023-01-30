@@ -10,20 +10,22 @@ menu_settings:
   menu_items:
     - title: 'Home'
       url: '/'
+    - title: 'About'
+      url: '/about/'
     - title: 'Projects'
       url: '/projects/'
     - title: 'People'
       url: '/people/'
     - title: 'Products'
       url: '/products/'
-    - title: 'R&D'
-      url: '/research/'
     - title: 'Offer'
       url: '/offer/'
 
 footer_settings:
   logo_image: /images/computations_logo.png
+  logo_width: 200
   tagline: Computations Lab @ Digital Humanities Centre at the Institute of Literary Research of the Polish Academy of Sciences
+  chc_logo_image: /images/logos/chc_logo.png
 
 hero_settings:
   background_image: 
@@ -35,7 +37,7 @@ post_settings:
 
 contact_settings:
   email_address: 'tomasz.umerle@ibl.waw.pl'
-  form_action: 'https://formspree.io/hello@jekyllthemes.io'
+  form_action: 'https://formsubmit.co/tomasz.umerle@ibl.waw.pl'
   confirmation_url: '/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Send'
@@ -79,9 +81,9 @@ color_settings:
   error_color: '#D64541'
 
 font_settings:
-  font_embed: '<link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700|Ubuntu+Mono:400,700" rel="stylesheet">'
-  title_font: 'Rubik, sans-serif'
-  body_font: '"Ubuntu Mono", sans-serif'
+  font_embed: '<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"">'
+  title_font: '"Lato Bold 700", sans-serif'
+  body_font: '"Lato Regular 400", sans-serif'
   regular_weight: 400
   bold_weight: 700
   site_title:

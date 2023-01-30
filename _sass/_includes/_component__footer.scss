@@ -10,10 +10,9 @@
 
 	.footer__logo {
 		justify-self: center;
-		width: 300px;
+		width: $footer-logo-width;
 	}
 
-	
 	.footer__title {
 	    font-family: $title-font;
 	    font-size: $sitetitle-small;

@@ -47,6 +47,26 @@
       margin: 8px 0 0 -4px;
     }
 	}
+
+  .about__computations {
+    max-width: 1200px;
+
+    .title {
+      margin-bottom: 16px;
+    }
+
+    .subtitle {
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 16px;
+    }
+
+    .cta {
+      margin: 8px 0 0 -4px;
+    }
+	}
 	
 
   @include mq(tabletp) {
