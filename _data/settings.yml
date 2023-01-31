@@ -87,8 +87,8 @@ color_settings:
 
 font_settings:
   font_embed: '<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet"">'
-  title_font: '"Lato Bold 700", sans-serif'
-  body_font: '"Lato Regular 400", sans-serif'
+  title_font: 'Lato, sans-serif'
+  body_font: 'Lato, sans-serif'
   regular_weight: 400
   bold_weight: 700
   site_title:
@@ -101,7 +101,7 @@ font_settings:
     small_size: 30
     medium_size: 15
     large_size: 17
-    weight: 600
+    weight: 700
     letter_spacing: 0
   h1:
     size: 64
@@ -190,7 +190,7 @@ font_settings:
     letter_spacing: -0.02
     line_height: 1.6
   buttons:
-    weight: 500
+    weight: 400
     letter_spacing: 0.4
 
 advanced_settings:
