@@ -34,10 +34,20 @@ featured_image:
 
 			<article class="project__preview">
 				<h3 class="project__title"><a href="{{ '/projects/' | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
-
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
-					{% for image in project.gallery_images %}
-					<a href="{{ '/projects/' | relative_url }}"><img src="{{ '/images/projects/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
+					{% for item in project.gallery_items %}
+					<div>
+						<a href="{{ item.url }}"><img src="{{ '/images/projects/' | relative_url}}{{ item.image }}" alt="" class="project__image"></a>
+						<!--
+						<br>
+						<div class="project__content grid" style="border-color: {{ accent_color }}">
+							<p class="project__subtitle subtitle--light">{{ item.subtitle }}</p>
+							<p class="project__description --small">
+								{{ item.description }}
+							</p>
+						</div>
+						-->
+					</div>
 					{% endfor %}
 				</div>
 
