@@ -22,10 +22,15 @@ menu_settings:
       url: '/offer/'
 
 footer_settings:
-  logo_image: /images/computations_logo.png
-  logo_width: 200
-  tagline: Computations Lab @ Digital Humanities Centre at the Institute of Literary Research of the Polish Academy of Sciences
-  chc_logo_image: /images/logos/chc_logo.png
+  logo_image: 
+    main: /images/computations_logo.png
+    chc: /images/logos/chc_logo.png
+    ibl: /images/logos/ibl_logo.png
+  logo_width:
+    main: 250
+    chc: 150
+    ibl: 70
+  tagline: Computations lab @ Digital Humanities Centre at the Institute of Literary Research of the Polish Academy of Sciences
 
 hero_settings:
   background_image: 

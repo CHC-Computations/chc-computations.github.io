@@ -10,7 +10,7 @@
 
 	.footer__logo {
 		justify-self: center;
-		width: $footer-logo-width;
+		margin: auto;
 	}
 
 	.footer__title {
@@ -51,7 +51,7 @@
 		padding: 80px 0;
 
 		.wrap {
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: repeat(4, auto);
 		}
 
 		.footer__logo {

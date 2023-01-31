@@ -31,6 +31,11 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
+  &__4-col {
+    @extend .grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
   @include mq(tabletp) {
     grid-gap: 30px;
   }
