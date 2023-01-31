@@ -36,8 +36,8 @@ featured_image:
 				<h3 class="project__title"><a href="{{ '/projects/' | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
 
 				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
-					{% for image in project.gallery_images %}
-					<a href="{{ '/projects/' | relative_url }}"><img src="{{ '/images/projects/' | relative_url}}{{ image }}" alt="" class="project__image"></a>
+					{% for item in project.gallery_items %}
+					<a href="{{ item.url }}"><img src="{{ '/images/projects/' | relative_url}}{{ item.image }}" alt="" class="project__image"></a>
 					{% endfor %}
 				</div>
 
