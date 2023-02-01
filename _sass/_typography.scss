@@ -157,6 +157,14 @@ ol {
   list-style-position: inside;
 }
 
+li {
+  margin-bottom: 16px;
+  font-weight: $p-weight;
+  font-size: $p-size-small;
+  line-height: $p-lineheight;
+  letter-spacing: $p-spacing;
+}
+
 blockquote {
   margin-top: 16px;
   border-left: 2px solid $text-dark-color;
