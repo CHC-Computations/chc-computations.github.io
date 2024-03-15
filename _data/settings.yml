@@ -41,9 +41,9 @@ post_settings:
   grid_spacing: 10
 
 contact_settings:
-  email_address: 'tomasz.umerle@ibl.waw.pl'
-  form_action: 'https://formsubmit.co/tomasz.umerle@ibl.waw.pl'
-  confirmation_url: '/thanks'
+  email_address: 'computations@ibl.waw.pl'
+  form_action: 'https://formsubmit.co/computations@ibl.waw.pl'
+  confirmation_url: 'https://computations.eu/thanks'
   email_subject: 'Contact form submission'
   send_button_text: 'Send'
 
