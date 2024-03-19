@@ -13,42 +13,23 @@ featured_image:
 	{% endif %}
 
 	<section class="hero">
-		<div class="wrap grid">
-			<div class="title">
-				<img src="{{ site.data.settings.hero_settings.logo_image | relative_url }}">
-			</div>
-
-			<p class="intro subtitle--light">
+		<div class="wrap">
+			<p class="subtitle--light">
 				{{ page.description }}
-				<a href="#" class="hero__cta button--fill contact-trigger js-contact">Contact</a>
+				
 			</p>
 		</div>
 	</section>
 
-	<section class="listing">
-		<div class="wrap">
-
-			{% for project in site.projects reversed %}
-
-			{% if project.accent_color %}{% capture accent_color %}{{ project.accent_color }}{% endcapture %}{% endif %}
-
-			<article class="project__preview">
-				<h3 class="project__title"><a href="{{ '/projects/' | relative_url }}" style="--accent: {{ accent_color }}">{{ project.title }}</a></h3>
-
-				<div class="project__images owl-carousel" style="--accent: {{ accent_color }}">
-					{% for item in project.gallery_items %}
-					<a href="{{ item.url }}"><img src="{{ '/images/projects/' | relative_url}}{{ item.image }}" alt="" class="project__image"></a>
+	<div class="page-blog">
+		<section class="all-posts">
+			<div class="wrap">
+				<div class="posts__list grid">
+					{% for post in paginator.posts reversed %}
+					{% include component__post-preview.html %}
 					{% endfor %}
 				</div>
-
-				<div class="project__content grid" style="border-color: {{ accent_color }}">
-					<p class="project__subtitle subtitle--light">{{ project.subtitle }}</p>
-					<p class="project__description --small">
-						{{ project.description }}
-					</p>
-				</div>
-			</article>
-			{% endfor %}
-		</div>
-	</section>
+			</div>
+		</section>
+	</div>
 </div>

@@ -3,23 +3,23 @@ basic_settings:
   favicon_image: /images/computations_short_logo.png
 
 header_settings:
-  logo_image: 
-  logo_width: 
+  logo_image: /images/computations_logo.png
+  logo_width: 300
 
 menu_settings:
   menu_items:
-    - title: 'Home'
+    - title: ''
       url: '/'
     - title: 'About'
       url: '/about/'
+    - title: 'Services'
+      url: '/services/'
+    - title: 'Tools'
+      url: '/tools/'
     - title: 'Projects'
       url: '/projects/'
     - title: 'People'
       url: '/people/'
-    - title: 'Products'
-      url: '/products/'
-    - title: 'Offer'
-      url: '/offer/'
 
 footer_settings:
   logo_image: 

@@ -17,12 +17,6 @@
 		</a>
 		{% endif %}
 
-		{% if site.data.settings.footer_settings.logo_image.ibl %}
-		<a href="https://ibl.waw.pl" class="footer__logo">
-			<img src="{{ site.data.settings.footer_settings.logo_image.ibl | relative_url }}" class="footer__logo__img" width="{{ site.data.settings.footer_settings.logo_width.ibl }}px">	
-		</a>
-		{% endif %}
-
 		<div class="footer__copyright">
 			{% if site.data.settings.footer_settings.tagline %}
 			<p>{{ site.data.settings.footer_settings.tagline }}</p>
