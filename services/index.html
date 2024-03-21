@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Services
-description: 
+description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 featured_image: 
 ---
 
@@ -9,15 +9,21 @@ featured_image:
 	<header class="header--single">
 		<div class="wrap">
 			<h1 class="header__title">Services</h1>
-			<p class="header__subtitle subtitle--light"></p>
+			<p class="header__subtitle subtitle--light">{{ page.description }}</p>
 		</div>
 	</header>
 
-	<header class="header--single">
-		<div class="wrap">
-			<p class="header__subtitle subtitle--light">Page under construction...</p>
-		</div>
-	</header>
+	<div class="page-blog">
+		<section class="all-posts">
+			<div class="wrap">
+				<div class="posts__list grid">
+					{% for post in site.cmps_services %}
+					{% include component__post-preview.html %}
+					{% endfor %}
+				</div>
+			</div>
+		</section>
+	</div>
 
 
 </div>

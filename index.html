@@ -25,7 +25,7 @@ featured_image:
 		<section class="all-posts">
 			<div class="wrap">
 				<div class="posts__list grid">
-					{% for post in paginator.posts reversed %}
+					{% for post in site.cmps_services %}
 					{% include component__post-preview.html %}
 					{% endfor %}
 				</div>
