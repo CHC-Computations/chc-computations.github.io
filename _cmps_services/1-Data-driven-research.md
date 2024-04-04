@@ -7,22 +7,22 @@ featured_image: '/images/services/data-driven.png'
 ---
 
 <div class="page-blog">
-<section class="all-posts">
-    <div class="wrap">
-        <div class="posts__list grid">
-            <div>
-                <h5 class="post__title subtitle--bold" style="text-align: center;">Data collection</h5>
-                <p>includes identifying relevant data, retrieving them via APIs, other protocols, webscraping, data extraction from textual resources</p>
-            </div>
-            <div>
-                <h5 class="post__title subtitle--bold" style="text-align: center;">Data processing</h5>
-                <p>includes data modelling, setting up database for research purposes</p>
-            </div>
-            <div>
-                <h5 class="post__title subtitle--bold" style="text-align: center;">Publication support</h5>
-                <p>includes data visualisation, supporting writing process with data science expertise, research data management (RDM) and data management plans (DMP)</p>
+    <section class="all-posts">
+        <div class="wrap">
+            <div class="posts__list grid">
+                <div>
+                    <h5 class="post__title subtitle--bold" style="text-align: center;">Data collection</h5>
+                    <p>includes identifying relevant data, retrieving them via APIs, other protocols, webscraping, data extraction from textual resources</p>
+                </div>
+                <div>
+                    <h5 class="post__title subtitle--bold" style="text-align: center;">Data processing</h5>
+                    <p>includes data modelling, setting up database for research purposes</p>
+                </div>
+                <div>
+                    <h5 class="post__title subtitle--bold" style="text-align: center;">Publication support</h5>
+                    <p>includes data visualisation, supporting writing process with data science expertise, research data management (RDM) and data management plans (DMP)</p>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 </div>
