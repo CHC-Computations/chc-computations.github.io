@@ -25,3 +25,5 @@ featured_image: '/images/services/projects.png'
         </div>
     </section>
 </div>
+
+<h5 class="post__title subtitle--bold" style="text-align: center;">Funders</h5>
