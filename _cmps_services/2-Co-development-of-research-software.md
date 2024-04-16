@@ -28,8 +28,8 @@ featured_image: '/images/services/software-development.png'
     </div>
     <h5 class="post__title subtitle--bold" style="text-align: center; margin-bottom: 40px; margin-top: 80px;">Project partners</h5>
     <div class="wrap grid__4-col">
-        <div style="padding: 40px; display: flex; justify-content: center; align-items: center;">
-            <img src="/images/partners_logos/PSNC_logo_niebieskie_tekst_RGB_.png">
+        <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
+            <img src="/images/partners_logos/PSNC_logo_niebieskie_tekst_RGB_.png" style="max-height: 100px;">
         </div>
         <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
             <img src="/images/partners_logos/Logo-eps-long-CLARIN-sub-700x376.png">
