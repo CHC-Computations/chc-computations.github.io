@@ -79,7 +79,6 @@ featured_image: '/images/services/data-driven.png'
             </div>
             <h5 class="post__title subtitle--bold" style="text-align: center; margin-bottom: 40px; margin-top: 80px;">They trusted us</h5>
             <lu>
-				<li>Data science support for Czech literature global reception grant from Czech Science Foundation.</li>
 				<li>Supporting research on Austrian literary prizes at University of Vienna.</li>
 				<li>Managing annotation workflows for CHIST-ERA project on FAIR Software.</li>
 				<li>Supporting research network around "Journal of Jesuit Studies". </li>
