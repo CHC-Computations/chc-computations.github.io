@@ -47,9 +47,6 @@ featured_image: '/images/services/projects.png'
         <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
             <img src="/images/funders_logos/chistera.png" style="max-height: 80px">
         </div>
-        <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-            <img src="/images/funders_logos/gacr.png" style="max-height: 150px">
-        </div>
     </div>
 </div>
 
