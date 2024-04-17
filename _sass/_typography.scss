@@ -116,6 +116,11 @@ h6,
     font-weight: $subtitle-weight-regular;
   }
 
+  &--bold {
+    @extend .subtitle;
+    font-weight: bold;
+  }
+
   a {
     font-weight: 500;
     text-decoration: underline;

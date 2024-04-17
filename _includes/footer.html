@@ -1,6 +1,6 @@
 <footer class="footer">
 	<div class="wrap grid">
-
+		
 		{% if site.data.settings.footer_settings.logo_image.main %}
 		<a href="/" class="footer__logo">
 			<img src="{{ site.data.settings.footer_settings.logo_image.main | relative_url }}" class="footer__logo__img" width="{{ site.data.settings.footer_settings.logo_width.main }}px">
@@ -14,12 +14,6 @@
 		{% if site.data.settings.footer_settings.logo_image.chc %}
 		<a href="https://chc.ibl.waw.pl" class="footer__logo">
 			<img src="{{ site.data.settings.footer_settings.logo_image.chc | relative_url }}" class="footer__logo__img" width="{{ site.data.settings.footer_settings.logo_width.chc }}px">	
-		</a>
-		{% endif %}
-
-		{% if site.data.settings.footer_settings.logo_image.ibl %}
-		<a href="https://ibl.waw.pl" class="footer__logo">
-			<img src="{{ site.data.settings.footer_settings.logo_image.ibl | relative_url }}" class="footer__logo__img" width="{{ site.data.settings.footer_settings.logo_width.ibl }}px">	
 		</a>
 		{% endif %}
 

@@ -1,0 +1,30 @@
+---
+layout: default
+title: Services
+description: Computations offers comprehensive support in any social sciences and humanities (SSH) research which involves data usage. We are assisting research on all stages of the research lifecycle from data collection, through processing to visualisation and publication of research results (articles, books, datasets, etc.). Our team includes data scientists, developers and SSH researchers passionate about helping researchers achieve their goals.
+featured_image: 
+---
+
+<div class="page-blog">
+	<header class="header--single">
+		<div class="wrap">
+			<h2 class="header__title">Services</h2>
+			<p class="header__subtitle subtitle--light">Computations' offering includes services to support scholarly activity in the humanities and social sciences. It is aimed at both individual researchers and institutions. In cooperation with us, you can efficiently and professionally carry out research projects, create digital solutions and raise funds to achieve your goals.
+			</p>
+		</div>
+	</header>
+
+	<div class="page-blog">
+		<section class="all-posts">
+			<div class="wrap">
+				<div class="posts__list grid">
+					{% for post in site.cmps_services %}
+					{% include component__post-preview.html %}
+					{% endfor %}
+				</div>
+			</div>
+		</section>
+	</div>
+
+
+</div>

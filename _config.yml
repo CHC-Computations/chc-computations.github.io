@@ -13,6 +13,9 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  cmps_services:
+    output: true
+    permalink: /services/:slug
 
 defaults:
   -
@@ -38,6 +41,12 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  -
+    scope:
+      path: ""
+      type: "cmps_services"
+    values:
+      layout: "post"
 
 markdown: kramdown
 highlighter: rouge
