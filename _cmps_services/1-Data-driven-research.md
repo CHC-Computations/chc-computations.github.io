@@ -1,5 +1,5 @@
 ---
-title: Data-driven research
+title: Data-driven research support
 layout: post
 date: 2019-06-30 00:00:00
 description: Computations offers comprehensive support in any social sciences and humanities (SSH) research which involves data usage. We are assisting research on all stages of the research lifecycle from data collection, through processing to visualisation and publication of research results (articles, books, datasets, etc.). <br><a href="/people/">Our team</a> includes data scientists, developers and SSH researchers passionate about helping researchers achieve their goals.
