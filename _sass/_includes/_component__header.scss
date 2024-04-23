@@ -12,9 +12,17 @@
   .header__logo {
     display: block;
     align-self: center;
-    width: $logo-width;
+    width: $logo-width*0.8;
     position: relative;
     z-index: 10;
+
+    @include mq(tabletp) {
+      width: $logo-width;
+    }
+
+    @include mq(laptop) {
+      width: $logo-width;
+    }
   }
 
   .header__title {
