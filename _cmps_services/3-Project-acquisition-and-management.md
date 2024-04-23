@@ -10,14 +10,23 @@ featured_image: '/images/services/projects.png'
         <div class="wrap">
             <div class="posts__list grid">
                 <div>
+                    <div class="about__image" style="padding: 60px;">
+						<img src="/images/management_pictures/search-funds.png" alt="">
+					</div>
                     <h5 class="post__title subtitle--bold" style="text-align: center;">Identifying funding opportunities</h5>
                     <p style="text-align: center;">includes finding proper calls and programmes for your research ideas based on our experience and networks</p>
                 </div>
                 <div>
+                    <div class="about__image" style="padding: 60px;">
+						<img src="/images/management_pictures/creative.png" alt="">
+					</div>
                     <h5 class="post__title subtitle--bold" style="text-align: center;">Writing proposals</h5>
                     <p style="text-align: center;">includes joint proposal writing to meet a proper balance between your research expertise and various requirements; we focus especially on implementing digital tools into SSH research workflows</p>
                 </div>
                 <div>
+                    <div class="about__image" style="padding: 60px;">
+						<img src="/images/management_pictures/management.png" alt="">
+					</div>
                     <h5 class="post__title subtitle--bold" style="text-align: center;">Managing projects and infrastructures</h5>
                     <p style="text-align: center;">includes managing tasks, work packages, consultations; because of our unique expertise we are passionate about helping to manage SSH research infrastructures</p>
                 </div>
