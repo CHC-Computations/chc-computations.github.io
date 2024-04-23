@@ -58,10 +58,10 @@ featured_image: '/images/services/data-driven.png'
                     <div class="wrap grid" style="padding: 0; margin-bottom: 40px; gap: 0;">
                         <div class="wrap grid__2-col" style="padding: 10px; gap: 0; height: 110px;">
                             <div style="display: flex; justify-content: center; align-items: center;">
-                                <img src="/images/services_pictures/matplot.png" style="max-height: 100px">
+                                <img src="/images/services_pictures/zenodo.png" style="max-height: 100px">
                             </div>
                             <div style="display: flex; justify-content: center; align-items: center;">
-                                <img src="/images/services_pictures/zenodo.png" style="max-height: 100px">
+                                <img src="/images/services_pictures/chart.png" style="max-height: 100px">
                             </div>
                         </div>
                         <div class="wrap grid__2-col" style="padding: 10px; gap: 0; height: 110px;">
@@ -77,7 +77,7 @@ featured_image: '/images/services/data-driven.png'
                     <p style="text-align: center;">includes data visualisation, supporting writing process with data science expertise, research data management (RDM) and data management plans (DMP)</p>
                 </div>
             </div>
-            <h5 class="post__title subtitle--bold" style="text-align: center; margin-bottom: 40px; margin-top: 80px;">They trusted us</h5>
+            <h5 class="post__title subtitle--bold" style="text-align: center; margin-bottom: 40px; margin-top: 80px;">Our collaborations</h5>
             <lu>
 				<li>Supporting research on Austrian literary prizes at University of Vienna.</li>
 				<li>Managing annotation workflows for CHIST-ERA project on FAIR Software.</li>
