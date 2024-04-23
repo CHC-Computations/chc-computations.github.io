@@ -99,6 +99,11 @@
         grid-template-columns: 1fr 1fr;
       }
 
+      .posts__list__partners {
+        grid-template-columns: repeat(2, 1fr);
+        grid-row-gap: 80px;
+      }
+
       .post-new {
         grid-column: 1/3;
 
@@ -149,6 +154,16 @@
 			
       .posts__list {
         grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 80px;
+      }
+
+      .posts__list__2-col {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 80px;
+      }
+
+      .posts__list__partners {
+        grid-template-columns: repeat(4, 1fr);
         grid-row-gap: 80px;
       }
     }
