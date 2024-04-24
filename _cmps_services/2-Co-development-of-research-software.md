@@ -35,16 +35,24 @@ featured_image: '/images/services/software-development.png'
         <div class="wrap">
             <div class="posts__list__partners grid">
                 <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-                    <img src="/images/partners_logos/PSNC_logo_niebieskie_tekst_RGB_.png" style="max-height: 100px;">
+                    <a href="https://www.psnc.pl/">
+                        <img src="/images/partners_logos/PSNC_logo_niebieskie_tekst_RGB_.png" style="max-height: 100px;">
+                    </a>
                 </div>
                 <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-                    <img src="/images/partners_logos/Logo-eps-long-CLARIN-sub-700x376.png" style="max-height: 150px;">
+                    <a href="https://clarin-pl.eu/index.php/en/home/">
+                        <img src="/images/partners_logos/Logo-eps-long-CLARIN-sub-700x376.png" style="max-height: 150px;">
+                    </a>
                 </div>
                 <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-                    <img src="/images/partners_logos/DARIAH-PL-Logo-no-tagline-RGB.png" style="max-height: 100px;">
+                    <a href="https://dariah.pl/en/">
+                        <img src="/images/partners_logos/DARIAH-PL-Logo-no-tagline-RGB.png" style="max-height: 100px;">
+                    </a>
                 </div>
                 <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-                    <img src="/images/partners_logos/operas_logo_trasparente_mini.png" style="max-height: 100px;">
+                    <a href="https://operas-eu.org/">
+                        <img src="/images/partners_logos/operas_logo_trasparente_mini.png" style="max-height: 100px;">
+                    </a>
                 </div>
             </div>
         </div>

@@ -38,25 +38,39 @@ featured_image: '/images/services/projects.png'
         <div class="wrap">
             <div class="posts__list__2-col grid">
                 <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-                    <img src="/images/funders_logos/pan.svg" style="max-height: 150px">
+                    <a href="https://pan.pl/en/">
+                        <img src="/images/funders_logos/pan.png" style="max-height: 150px">
+                    </a>
                 </div>
                 <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-                    <img src="/images/funders_logos/nprh.png" style="max-height: 150px">
+                    <a href="https://www.gov.pl/web/nauka/narodowy-program-rozwoju-humanistyki">
+                        <img src="/images/funders_logos/nprh.png" style="max-height: 150px">
+                    </a>
                 </div>
                 <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-                    <img src="/images/funders_logos/mnisw.png" style="max-height: 150px">
+                    <a href="https://www.gov.pl/web/nauka">
+                        <img src="/images/funders_logos/mnisw.png" style="max-height: 150px">
+                    </a>
                 </div>
                 <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-                    <img src="/images/funders_logos/ncn.png" style="max-height: 150px">
+                    <a href="https://www.ncn.gov.pl/en">
+                        <img src="/images/funders_logos/ncn.png" style="max-height: 150px">
+                    </a>
                 </div>
                 <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-                    <img src="/images/funders_logos/horizon.jpg" style="max-height: 150px">
+                    <a href="https://research-and-innovation.ec.europa.eu/funding/funding-opportunities/funding-programmes-and-open-calls/horizon-europe_en">
+                        <img src="/images/funders_logos/horizon.jpg" style="max-height: 150px">
+                    </a>
                 </div>
                 <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-                    <img src="/images/funders_logos/erasmus.svg" style="max-height: 100px">
+                    <a href="https://erasmus-plus.ec.europa.eu/">
+                        <img src="/images/funders_logos/erasmus.png" style="max-height: 100px">
+                    </a>
                 </div>
                 <div style="padding: 20px; display: flex; justify-content: center; align-items: center;">
-                    <img src="/images/funders_logos/chistera.png" style="max-height: 80px">
+                    <a href="https://www.chistera.eu/">
+                        <img src="/images/funders_logos/chistera.png" style="max-height: 80px">
+                    </a>
                 </div>
             </div>
         </div>
