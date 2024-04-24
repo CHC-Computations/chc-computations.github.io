@@ -5,7 +5,7 @@
 // - - - - - - - - - - - - - - - - - -
 
 .about {
-  margin-bottom: 100px;
+  margin-bottom: 40px;
 
   hr {
     margin-bottom: 80px;
@@ -70,7 +70,7 @@
 	
 
   @include mq(tabletp) {
-    margin-bottom: 160px;
+    margin-bottom: 60px;
     
     hr {
       margin-bottom: 120px;
